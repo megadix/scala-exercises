@@ -19,7 +19,7 @@ project/plugins/project/
 # Ignore Intellij files
 .idea
 *.iml
-out/
+project/
 
 # Ignore local.properties
 local.properties
