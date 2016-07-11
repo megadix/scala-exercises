@@ -1,6 +1,6 @@
 import common._
 
-// Inspired by "Pragmatic Scala" https://pragprog.com/book/vsscala2/pragmatic-scalaobject Session {
+// Inspired by "Pragmatic Scala" https://pragprog.com/book/vsscala2/pragmatic-scala
 
 object Example_1_Collections extends App {
 
