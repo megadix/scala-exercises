@@ -22,13 +22,27 @@ object Ex1_Collections extends App {
 
   println("List of strings:")
   println(symbols)
+  println()
 
-  println("List manipulation:")
+  println("Sort, reverse, map (direct):")
 
   println(symbols
     .sorted
     .reverse
     .map(_.toLowerCase()))
+  println()
+
+  println("Sort, reverse, map (function with variable-length arguments):")
+
+  def sortReverseMap(strings: String*): Seq[String] = {
+    strings
+      .sorted
+      .reverse
+      .map(_.toLowerCase())
+  }
+
+  println(sortReverseMap("GOOGL", "MSFT", "ORCL", "IBM", "AAPL"))
+  println()
 
   /*
    * Sequential version: stock closing values are retrieved sequentially
