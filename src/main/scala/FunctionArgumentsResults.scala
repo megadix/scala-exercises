@@ -42,7 +42,9 @@ object FunctionArgumentsResults extends App {
   headLine("Implicit parameters + default value")
 
   def functionWithImplicitParameters(description: String)(implicit implicitParam: String) = {
-    println(s"$description\n$implicitParam")
+    println(
+      s"""$description
+         |$implicitParam""".stripMargin)
   }
 
   def implicitParamTestA() = {
