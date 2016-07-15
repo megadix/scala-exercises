@@ -2,7 +2,7 @@ import common._
 
 // Inspired by "Pragmatic Scala" https://pragprog.com/book/vsscala2/pragmatic-scala
 
-object Ex1_Collections extends App {
+object Collections extends App {
 
   /**
     * Return symbol, name and previous close as a tuple
