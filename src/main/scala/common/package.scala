@@ -2,9 +2,17 @@
   * Common utility functions
   */
 package object common {
-  def headLine(title: String): Unit = {
+
+  def bigTitle(title: String) = {
+    println("######################################################################")
+    println(title)
+    println("######################################################################")
+    println
+  }
+
+  def headLine(title: String) = {
     println("======================================================================")
     println(title)
-    println()
+    println
   }
 }
